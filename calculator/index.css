@@ -1,0 +1,46 @@
+body{
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+#num1
+{
+    height: 50px;
+    width: 50px;
+}
+#num2
+{
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+}
+#CALC
+{
+    display: flex;
+    justify-content: center;
+}
+p{
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+button{
+    background-color: white;
+    color: black;
+    margin-top: 10px;
+    border: 1px solid black;
+    padding: 10px 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 2px;
+}
+#Error{
+    color:red;
+    font-weight: 200;
+}
+#CALCbutton{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row: inherit;
+    column-gap: 1px;
+    place-items: center;
+}

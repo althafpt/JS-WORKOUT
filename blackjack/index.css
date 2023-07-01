@@ -1,0 +1,27 @@
+h1{
+    color: goldenrod;
+}
+body{
+    background-image: url(images/bj-background.jpg);
+    background-size: cover;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} 
+p{
+    color: white;
+}
+#msg{
+    font-style: italic;
+}
+button{
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+}
